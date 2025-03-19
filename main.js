@@ -52,3 +52,14 @@ ScrollReveal().reveal(".container-right .nat-2", {
     duration: 1000,
     delay:4500,
 });
+ScrollReveal().reveal(".location", {
+    ...scrollRevealOption,
+    origin:"left",
+    delay:5000,
+});
+ScrollReveal().reveal(".socials span", {
+    ...scrollRevealOption,
+    origin:"top",
+    delay:5500,
+    interval : 500,
+});
